@@ -1,0 +1,23 @@
+[
+  {
+    "company": "Tech Corp",
+    "role": "Senior Software Engineer",
+    "start": "2023",
+    "end": "Present",
+    "summary": "Leading frontend architecture and performance optimization for core product surfaces."
+  },
+  {
+    "company": "Innovate Labs",
+    "role": "Software Engineer",
+    "start": "2021",
+    "end": "2023",
+    "summary": "Built data-rich dashboards and design system components used across multiple teams."
+  },
+  {
+    "company": "Freelance",
+    "role": "Full Stack Developer",
+    "start": "2019",
+    "end": "2021",
+    "summary": "Delivered custom web applications, focusing on clean UX and maintainable code."
+  }
+]

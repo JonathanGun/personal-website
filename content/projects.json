@@ -1,0 +1,25 @@
+[
+  {
+    "slug": "perf-insights",
+    "name": "Perf Insights",
+    "description": "Lightweight web performance auditing tool surfacing Core Web Vitals deltas.",
+    "tech": ["React", "Node", "Lighthouse"],
+  "image": "https://placehold.co/600x400/0d1117/ffffff?text=Perf",
+    "url": "#",
+    "repo": "#"
+  },
+  {
+    "slug": "design-kit",
+    "name": "Design Kit",
+    "description": "Accessible component library and tokens powering multiple internal apps.",
+    "tech": ["TypeScript", "Storybook", "CSS"],
+  "image": "https://placehold.co/600x400/0d1117/ffffff?text=Design"
+  },
+  {
+    "slug": "etl-pipeline",
+    "name": "ETL Pipeline",
+    "description": "Resilient ingestion and transformation pipeline processing millions of rows daily.",
+    "tech": ["Python", "Airflow", "Postgres"],
+  "image": "https://placehold.co/600x400/0d1117/ffffff?text=ETL"
+  }
+]
