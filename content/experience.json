@@ -1,23 +1,67 @@
 [
   {
-    "company": "Tech Corp",
-    "role": "Senior Software Engineer",
-    "start": "2023",
+    "company": "GoToFinancial (Gopay)",
+    "role": "Infrastructure Engineer - Database",
+    "start": "Aug 2022",
     "end": "Present",
-    "summary": "Leading frontend architecture and performance optimization for core product surfaces."
+    "summary": "Infrastructure & database engineering for large-scale financial platforms.",
+    "bullets": [
+      "Built a developer portal used by hundreds of microservices to manage databases.",
+      "Orchestrated large-scale cloud migration from AWS to Alicloud.",
+      "Led self-service database upgrades, migrating 300+ Redis instances with minimal downtime in under 3 months.",
+      "Deployed and maintained highly-available PostgreSQL clusters across 100+ databases.",
+      "Automated infra deployments (Kafka, Redis, Consul) with Terraform + Ansible cutting setup time from days to hours."
+    ]
   },
   {
-    "company": "Innovate Labs",
-    "role": "Software Engineer",
-    "start": "2021",
-    "end": "2023",
-    "summary": "Built data-rich dashboards and design system components used across multiple teams."
+    "company": "Xendit",
+    "role": "Infrastructure Engineer Intern",
+    "start": "Jun 2022",
+    "end": "Aug 2022",
+    "summary": "Infrastructure / platform engineering internship.",
+    "bullets": [
+      "Provisioned pilot infrastructure project using Terraform and Ansible, adopting Infrastructure as Code practices."
+    ]
   },
   {
-    "company": "Freelance",
-    "role": "Full Stack Developer",
+    "company": "Garena",
+    "role": "Backend Developer Intern",
+    "start": "May 2021",
+    "end": "Jun 2022",
+    "summary": "Backend development for multi-region event systems.",
+    "bullets": [
+      "Developed multi-region backend systems for in-game web events, supporting 200K+ participants and 10K+ daily logins within 2 weeks."
+    ]
+  },
+  {
+    "company": "Xtremax",
+    "role": "Backend Developer Intern",
+    "start": "May 2020",
+    "end": "Aug 2020",
+    "summary": "Backend engineering on national-scale government website.",
+    "bullets": [
+      "Introduced unit testing on a national-scale government website, increasing coverage to 20% of the codebase."
+    ],
+    "extra": true
+  },
+  {
+    "company": "Karang Praga",
+    "role": "Backend Developer (Project-based)",
     "start": "2019",
-    "end": "2021",
-    "summary": "Delivered custom web applications, focusing on clean UX and maintainable code."
+    "end": "2020",
+    "summary": "Created event registration website for national university entrance examination.",
+    "bullets": [
+      "Automated end-to-end user registration process from e-certificate creation to email delivery.",
+      "Manage small team of 4 under tight schedules, staying within deadlines for 100% of the features."
+    ],
+    "extra": true
+  },
+  {
+    "company": "Open Source Contributions",
+    "role": "Contributor",
+    "start": "2025",
+    "end": "Present",
+    "summary": "Occasional contributions to tooling and infrastructure repos.",
+    "extra": true
   }
 ]

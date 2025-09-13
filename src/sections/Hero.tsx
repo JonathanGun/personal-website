@@ -2,9 +2,11 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="hero" aria-label="Intro">
-      <h1>Hi, I'm Jonathan.</h1>
-      <p>I build reliable, performant web applications. This is a concise space to share my experience, selected projects, and things I learn.</p>
+    <section aria-label="Intro" className="scroll-mt-24">
+      <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">Jonathan Yudi Gunawan</h1>
+      <p className="max-w-2xl leading-relaxed text-sm sm:text-base text-text/90">
+        Infrastructure Engineer experienced in cloud platforms, database reliability, and automation. Proven success in scaling distributed systems and building developer tooling. Award-winning competitive programmer with strong problem-solving skills, passionate about making systems faster, safer, and more efficient.
+      </p>
     </section>
   );
 };

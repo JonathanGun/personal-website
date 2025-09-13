@@ -1,0 +1,33 @@
+{
+  "languages": [
+    "Golang",
+    "Python",
+    "JavaScript/TypeScript",
+    "SQL"
+  ],
+  "backend": [
+    "gRPC",
+    "REST",
+    "Microservices",
+    "Caching"
+  ],
+  "infrastructure": [
+    "Kubernetes",
+    "Docker",
+    "Cloud Run",
+    "CI/CD"
+  ],
+  "databases": [
+    "PostgreSQL",
+    "MySQL",
+    "Redis"
+  ],
+  "cloud": [
+    "Google Cloud"
+  ],
+  "other": [
+    "OpenCV",
+    "Automation",
+    "Problem Solving"
+  ]
+}

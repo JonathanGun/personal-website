@@ -1,0 +1,71 @@
+[
+  {
+    "year": "2020",
+    "title": "Silver Medalist, ICPC Asia Singapore Regional",
+    "detail": "Ranked Top 12 National Team (Indonesia)."
+  },
+  {
+    "year": "2020",
+    "title": "Top 100 Global, IEEExtreme 14.0",
+    "detail": "International programming hackathon."
+  },
+  {
+    "year": "2019",
+    "title": "3rd Place, ITB - NTUST Cloud Computing Hackathon",
+    "detail": "Built a self-hosted Werewolf game with Alexa AI in 24h."
+  },
+  {
+    "year": "2020",
+    "title": "97.50 pts - Shopee Code League",
+    "detail": "Multi-national Data Science & Analytics challenge score.",
+    "extra": true
+  },
+  {
+    "year": "2020",
+    "title": "Participant - Gemastik",
+    "detail": "National competitive programming & data mining event.",
+    "extra": true
+  },
+  {
+    "year": "2019",
+    "title": "45th / 9400 - IEEEXTREME 13.0",
+    "detail": "International 24h programming competition.",
+    "extra": true
+  },
+  {
+    "year": "2019",
+    "title": "13th Place - CSC BINUS CTF",
+    "detail": "National Capture The Flag cyber security contest.",
+    "extra": true
+  },
+  {
+    "year": "2019",
+    "title": "3rd Place - Kompetisi Puzzle Klasik",
+    "detail": "National classic puzzle competition (KPK 2019).",
+    "extra": true
+  },
+  {
+    "year": "2018",
+    "title": "33rd Place - ICPC Asia Singapore Regional",
+    "detail": "National team ranking in regional contest.",
+    "extra": true
+  },
+  {
+    "year": "2018",
+    "title": "Participant - FIND IT UGM",
+    "detail": "National competitive programming event.",
+    "extra": true
+  },
+  {
+    "year": "2018",
+    "title": "Participant - Schematics 2018",
+    "detail": "National competitive programming event.",
+    "extra": true
+  },
+  {
+    "year": "2017",
+    "title": "16th Place - OSN Physics (Provincial)",
+    "detail": "Provincial Physics Olympiad ranking.",
+    "extra": true
+  }
+]

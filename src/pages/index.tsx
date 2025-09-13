@@ -4,6 +4,9 @@ import Layout from '../components/Layout';
 import Hero from '../sections/Hero';
 import Experience from '../sections/Experience';
 import Projects from '../sections/Projects';
+import Achievements from '../sections/Achievements';
+import Education from '../sections/Education';
+import Skills from '../sections/Skills';
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -11,6 +14,9 @@ const IndexPage: React.FC<PageProps> = () => {
       <Hero />
       <Experience />
       <Projects />
+      <Achievements />
+      <Education />
+      <Skills />
     </Layout>
   );
 };

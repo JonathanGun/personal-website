@@ -4,11 +4,12 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `Jonathan Gunawan` ,
     siteUrl: `https://example.com`,
-    description: `Software engineer portfolio and blog`,
+  description: `Infrastructure & backend engineer focusing on databases, reliability, and developer productivity`,
     author: `@jonathangun`
   },
   graphqlTypegen: true,
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
