@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   pathPrefix: "/personal-website",
   siteMetadata: {
-    title: `Infrastructure & Platform Engineer | Jonathan Gunawan`,
+    title: `Jonathan Gunawan | Infrastructure & Platform Engineer`,
     siteUrl: `https://jonathangun.github.io/personal-website`,
     description: `Infrastructure & platform engineer specializing in databases, Kubernetes, Terraform, and developer platform automation. ICPC Silver Medalist & Top 100 IEEEXTREME.`,
     author: `Jonathan Yudi Gunawan`,
