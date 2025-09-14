@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBar, { NavLink } from './NavBar';
 import '../styles/global.css';
 import SEO from './SEO';
+import HamburgerButton from './HamburgerButton';
 
 interface Props { children: React.ReactNode; }
 
@@ -23,19 +24,7 @@ const Layout: React.FC<Props> = ({ children }) => {
         <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-3">
           <a href="/" className="text-lg font-bold tracking-wide text-accent" onClick={close}>JG</a>
           <NavBar links={links} onNavigate={close} className="hidden md:flex" />
-          <button
-            aria-label={open ? 'Close navigation' : 'Open navigation'}
-            aria-expanded={open}
-            onClick={toggle}
-            className="md:hidden relative h-9 w-9 rounded border border-border flex items-center justify-center transition-colors hover:border-accent"
-          >
-            <span className="sr-only">Menu</span>
-            <span className="relative flex h-5 w-5 flex-col items-center justify-between">
-              <span className={`block h-0.5 w-full origin-center rounded bg-text transition-all duration-300 ${open ? 'translate-y-2 rotate-45' : ''}`}></span>
-              <span className={`block h-0.5 w-full origin-center rounded bg-text transition-all duration-300 ${open ? 'opacity-0 scale-x-0' : 'opacity-100 scale-x-100'}`}></span>
-              <span className={`block h-0.5 w-full origin-center rounded bg-text transition-all duration-300 ${open ? '-translate-y-2 -rotate-45' : ''}`}></span>
-            </span>
-          </button>
+          <HamburgerButton open={open} onToggle={toggle} className="md:hidden" />
         </div>
         {/* Mobile tray */}
         <div
