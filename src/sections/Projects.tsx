@@ -37,6 +37,7 @@ const Projects: React.FC = () => {
             onShowLess={reset}
             onShowMore={showMore}
             baseLabel="projects"
+            expanded={visiblePriority > 0}
           />
         </div>
       )}

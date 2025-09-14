@@ -25,7 +25,9 @@ const Education: React.FC = () => {
         {visibleItems.map(e => (
           <li key={e.institution} className={(e.priority ?? 0) === 0 ? '' : 'opacity-90'}>
             <h3 className="m-0 text-base font-semibold leading-snug">{e.institution}</h3>
-            <div className={`text-[0.65rem] font-semibold uppercase tracking-wider ${(e.priority ?? 0) === 0 ? 'text-text/60' : 'text-text/50'}`}>{e.start} - {e.end}</div>
+            <div className={`text-[0.65rem] font-semibold uppercase tracking-wider ${(e.priority ?? 0) === 0 ? 'text-text/60' : 'text-text/50'}`}>
+              <time dateTime={e.start}>{e.start}</time> – <time dateTime={e.end}>{e.end}</time>
+            </div>
             <p className={`mt-1 text-sm leading-relaxed ${(e.priority ?? 0) === 0 ? 'text-text/90' : 'text-text/80'}`}>{e.degree}{e.gpa ? ` · GPA ${e.gpa}` : ''}</p>
           </li>
         ))}
@@ -39,6 +41,7 @@ const Education: React.FC = () => {
           onShowLess={reset}
           onShowMore={showMore}
           baseLabel="education items"
+          expanded={visiblePriority > 0}
         />
       )}
     </section>

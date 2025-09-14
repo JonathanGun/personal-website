@@ -77,8 +77,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, variant = 'ma
         <img
           className="aspect-video h-auto w-full object-cover transition group-hover:scale-[1.02]"
           src={resolveImage(image, name)}
-          alt={name}
+          alt={`Screenshot of ${name}`}
           loading="lazy"
+          decoding="async"
         />
       </div>
       <h3 id={`proj-${slug}`} className="mb-2 text-base font-semibold leading-snug">

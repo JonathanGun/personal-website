@@ -30,7 +30,9 @@ const Experience: React.FC = () => {
           >
             <span className="timeline-dot" />
             <h3 className="mb-1 font-medium leading-snug">{item.role} · {item.company}</h3>
-            <div className="mb-2 text-[0.65rem] font-semibold uppercase tracking-wider text-text/60">{item.start} – {item.end}</div>
+            <div className="mb-2 text-[0.65rem] font-semibold uppercase tracking-wider text-text/60">
+              <time dateTime={item.start}>{item.start}</time> – <time dateTime={item.end}>{item.end}</time>
+            </div>
             <p className={`m-0 mb-2 text-sm leading-relaxed ${(item.priority ?? 0) === 0 ? 'text-text/90' : 'text-text/80'}`}>{item.summary}</p>
             {item.bullets && item.bullets.length > 0 && (
               <ul className={`m-0 list-disc pl-5 space-y-1 text-sm ${(item.priority ?? 0) === 0 ? 'text-text/80' : 'text-text/70'}`}>
@@ -51,6 +53,7 @@ const Experience: React.FC = () => {
           onShowLess={reset}
           onShowMore={showMore}
           baseLabel="experience items"
+          expanded={visiblePriority > 0}
         />
       )}
     </section>

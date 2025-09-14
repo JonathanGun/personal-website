@@ -42,6 +42,7 @@ const AchievementsList: React.FC<AchievementsListProps> = ({ items, initialPrior
           onShowLess={reset}
           onShowMore={showMore}
           baseLabel="achievements"
+          expanded={visiblePriority > 0}
         />
       )}
     </div>
