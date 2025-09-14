@@ -20,8 +20,8 @@ const Experience: React.FC = () => {
   });
 
   return (
-    <section id="experience" aria-label="Work Experience" className="scroll-mt-24">
-      <h2 className="mb-8 text-2xl font-semibold tracking-tight">Experience</h2>
+    <section id="experience" aria-labelledby="experience-heading" className="scroll-mt-24">
+      <h2 id="experience-heading" className="mb-8 text-2xl font-semibold tracking-tight">Experience</h2>
       <ol className="timeline" id="experience-timeline">
         {visibleItems.map(item => (
           <li

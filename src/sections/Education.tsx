@@ -19,8 +19,8 @@ const Education: React.FC = () => {
   });
 
   return (
-    <section id="education" aria-label="Education" className="scroll-mt-24">
-      <h2 className="mb-8 text-2xl font-semibold tracking-tight">Education</h2>
+    <section id="education" aria-labelledby="education-heading" className="scroll-mt-24">
+      <h2 id="education-heading" className="mb-8 text-2xl font-semibold tracking-tight">Education</h2>
       <ul className="space-y-5" id="education-list">
         {visibleItems.map(e => (
           <li key={e.institution} className={(e.priority ?? 0) === 0 ? '' : 'opacity-90'}>

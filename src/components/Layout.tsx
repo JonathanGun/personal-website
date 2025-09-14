@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavBar, { NavLink } from './NavBar';
 import '../styles/global.css';
+import SEO from './SEO';
 
 interface Props { children: React.ReactNode; }
 
@@ -17,6 +18,7 @@ const Layout: React.FC<Props> = ({ children }) => {
   ];
   return (
     <div className="flex min-h-screen flex-col">
+      <SEO />
       <header className="sticky top-0 z-40 border-b border-border bg-bg/80 backdrop-blur supports-[backdrop-filter]:bg-bg/70">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-3">
           <a href="/" className="text-lg font-bold tracking-wide text-accent" onClick={close}>JG</a>

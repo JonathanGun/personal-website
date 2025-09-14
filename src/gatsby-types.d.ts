@@ -2286,29 +2286,109 @@ type SitePluginSortInput = {
 type SiteSiteMetadata = {
   readonly author: Maybe<Scalars['String']>;
   readonly description: Maybe<Scalars['String']>;
+  readonly image: Maybe<Scalars['String']>;
+  readonly keywords: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
+  readonly lastUpdated: Maybe<Scalars['Date']>;
+  readonly organization: Maybe<SiteSiteMetadataOrganization>;
   readonly siteUrl: Maybe<Scalars['String']>;
+  readonly social: Maybe<SiteSiteMetadataSocial>;
   readonly title: Maybe<Scalars['String']>;
+  readonly twitterUsername: Maybe<Scalars['String']>;
+};
+
+
+type SiteSiteMetadata_lastUpdatedArgs = {
+  difference: InputMaybe<Scalars['String']>;
+  formatString: InputMaybe<Scalars['String']>;
+  fromNow: InputMaybe<Scalars['Boolean']>;
+  locale: InputMaybe<Scalars['String']>;
 };
 
 type SiteSiteMetadataFieldSelector = {
   readonly author: InputMaybe<FieldSelectorEnum>;
   readonly description: InputMaybe<FieldSelectorEnum>;
+  readonly image: InputMaybe<FieldSelectorEnum>;
+  readonly keywords: InputMaybe<FieldSelectorEnum>;
+  readonly lastUpdated: InputMaybe<FieldSelectorEnum>;
+  readonly organization: InputMaybe<SiteSiteMetadataOrganizationFieldSelector>;
   readonly siteUrl: InputMaybe<FieldSelectorEnum>;
+  readonly social: InputMaybe<SiteSiteMetadataSocialFieldSelector>;
   readonly title: InputMaybe<FieldSelectorEnum>;
+  readonly twitterUsername: InputMaybe<FieldSelectorEnum>;
 };
 
 type SiteSiteMetadataFilterInput = {
   readonly author: InputMaybe<StringQueryOperatorInput>;
   readonly description: InputMaybe<StringQueryOperatorInput>;
+  readonly image: InputMaybe<StringQueryOperatorInput>;
+  readonly keywords: InputMaybe<StringQueryOperatorInput>;
+  readonly lastUpdated: InputMaybe<DateQueryOperatorInput>;
+  readonly organization: InputMaybe<SiteSiteMetadataOrganizationFilterInput>;
   readonly siteUrl: InputMaybe<StringQueryOperatorInput>;
+  readonly social: InputMaybe<SiteSiteMetadataSocialFilterInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
+  readonly twitterUsername: InputMaybe<StringQueryOperatorInput>;
+};
+
+type SiteSiteMetadataOrganization = {
+  readonly name: Maybe<Scalars['String']>;
+  readonly sameAs: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
+  readonly url: Maybe<Scalars['String']>;
+};
+
+type SiteSiteMetadataOrganizationFieldSelector = {
+  readonly name: InputMaybe<FieldSelectorEnum>;
+  readonly sameAs: InputMaybe<FieldSelectorEnum>;
+  readonly url: InputMaybe<FieldSelectorEnum>;
+};
+
+type SiteSiteMetadataOrganizationFilterInput = {
+  readonly name: InputMaybe<StringQueryOperatorInput>;
+  readonly sameAs: InputMaybe<StringQueryOperatorInput>;
+  readonly url: InputMaybe<StringQueryOperatorInput>;
+};
+
+type SiteSiteMetadataOrganizationSortInput = {
+  readonly name: InputMaybe<SortOrderEnum>;
+  readonly sameAs: InputMaybe<SortOrderEnum>;
+  readonly url: InputMaybe<SortOrderEnum>;
+};
+
+type SiteSiteMetadataSocial = {
+  readonly email: Maybe<Scalars['String']>;
+  readonly github: Maybe<Scalars['String']>;
+  readonly linkedin: Maybe<Scalars['String']>;
+};
+
+type SiteSiteMetadataSocialFieldSelector = {
+  readonly email: InputMaybe<FieldSelectorEnum>;
+  readonly github: InputMaybe<FieldSelectorEnum>;
+  readonly linkedin: InputMaybe<FieldSelectorEnum>;
+};
+
+type SiteSiteMetadataSocialFilterInput = {
+  readonly email: InputMaybe<StringQueryOperatorInput>;
+  readonly github: InputMaybe<StringQueryOperatorInput>;
+  readonly linkedin: InputMaybe<StringQueryOperatorInput>;
+};
+
+type SiteSiteMetadataSocialSortInput = {
+  readonly email: InputMaybe<SortOrderEnum>;
+  readonly github: InputMaybe<SortOrderEnum>;
+  readonly linkedin: InputMaybe<SortOrderEnum>;
 };
 
 type SiteSiteMetadataSortInput = {
   readonly author: InputMaybe<SortOrderEnum>;
   readonly description: InputMaybe<SortOrderEnum>;
+  readonly image: InputMaybe<SortOrderEnum>;
+  readonly keywords: InputMaybe<SortOrderEnum>;
+  readonly lastUpdated: InputMaybe<SortOrderEnum>;
+  readonly organization: InputMaybe<SiteSiteMetadataOrganizationSortInput>;
   readonly siteUrl: InputMaybe<SortOrderEnum>;
+  readonly social: InputMaybe<SiteSiteMetadataSocialSortInput>;
   readonly title: InputMaybe<SortOrderEnum>;
+  readonly twitterUsername: InputMaybe<SortOrderEnum>;
 };
 
 type SiteSortInput = {
@@ -2378,6 +2458,11 @@ type GatsbyImageSharpFluid_withWebp_noBase64Fragment = { readonly aspectRatio: n
 type GatsbyImageSharpFluid_withWebp_tracedSVGFragment = { readonly tracedSVG: string | null, readonly aspectRatio: number, readonly src: string, readonly srcSet: string, readonly srcWebp: string | null, readonly srcSetWebp: string | null, readonly sizes: string };
 
 type GatsbyImageSharpFluidLimitPresentationSizeFragment = { readonly maxHeight: number, readonly maxWidth: number };
+
+type SEOConfigQueryQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+type SEOConfigQueryQuery = { readonly site: { readonly siteMetadata: { readonly title: string | null, readonly description: string | null, readonly siteUrl: string | null, readonly author: string | null, readonly image: string | null, readonly keywords: ReadonlyArray<string | null> | null, readonly twitterUsername: string | null, readonly lastUpdated: string | null, readonly social: { readonly github: string | null, readonly linkedin: string | null, readonly email: string | null } | null, readonly organization: { readonly name: string | null, readonly url: string | null, readonly sameAs: ReadonlyArray<string | null> | null } | null } | null } | null };
 
 
 }

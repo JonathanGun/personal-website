@@ -16,8 +16,8 @@ const Projects: React.FC = () => {
   });
 
   return (
-    <section id="projects" aria-label="Selected Projects" className="scroll-mt-24">
-      <h2 className="mb-8 text-2xl font-semibold tracking-tight">Projects</h2>
+    <section id="projects" aria-labelledby="projects-heading" className="scroll-mt-24">
+      <h2 id="projects-heading" className="mb-8 text-2xl font-semibold tracking-tight">Projects</h2>
       <div className="grid gap-6 sm:grid-cols-3">
         {visibleItems.map((p: Project) => (
           <ProjectCard

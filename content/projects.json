@@ -11,7 +11,7 @@
     ],
     "image": "/images/thagpt.png",
     "url": "https://thagpt-182249571755.asia-southeast2.run.app",
-    "repo": "https://github.com/JonathanGun/LibreChat",
+    "repo": "https://github.com/JonathanGun/ThaGPT",
     "priority": 0
   },
   {
@@ -72,7 +72,7 @@
     "priority": 0
   },
   {
-    "slug": "flappy-bird-processing",
+    "slug": "flappy-bird-clone",
     "name": "Flappy Bird Clone",
     "description": "Flappy Bird game clone built with Processing framework.",
     "tech": [
@@ -80,7 +80,7 @@
       "Game"
     ],
     "image": "/images/flappy-bird.gif",
-    "repo": "https://github.com/JonathanGun/flappy-bird-processing",
+    "repo": "https://github.com/JonathanGun/flappy-bird-clone",
     "priority": 0
   },
   {

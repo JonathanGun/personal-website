@@ -6,8 +6,8 @@ type SkillsShape = Record<string, string[]>;
 const Skills: React.FC = () => {
   const data = skills as SkillsShape;
   return (
-    <section id="skills" aria-label="Skills" className="scroll-mt-24">
-      <h2 className="mb-8 text-2xl font-semibold tracking-tight">Skills</h2>
+    <section id="skills" aria-labelledby="skills-heading" className="scroll-mt-24">
+      <h2 id="skills-heading" className="mb-8 text-2xl font-semibold tracking-tight">Skills</h2>
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
         {Object.entries(data).map(([group, list]) => (
           <div key={group}>
