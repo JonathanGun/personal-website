@@ -1,15 +1,17 @@
 [
   {
-    "slug": "minecraft-dashboard",
-    "name": "Minecraft Server Dashboard",
-    "description": "Real-time dashboard to manage private Minecraft servers (with modpacks).",
+    "slug": "thagpt",
+    "name": "Tha-GPT",
+    "description": "Unified LLM chat interface. Supports ChatGPT, Claude, and self-hosted LLMs via LibreChat.",
     "tech": [
-      "React",
-      "Python",
-      "Google Cloud Run"
+      "Librechat",
+      "OpenAI",
+      "Anthropic",
+      "LLM"
     ],
-    "image": "/images/minecraft-dashboard.png",
-    "url": "https://github.com/JonathanGun/minecraft-server-controller-ui"
+    "image": "/images/thagpt.png",
+    "url": "https://thagpt-182249571755.asia-southeast2.run.app",
+    "repo": "https://github.com/JonathanGun/LibreChat"
   },
   {
     "slug": "property-marketing-agreement",
@@ -22,7 +24,20 @@
       "Google Cloud Run"
     ],
     "image": "/images/property-marketing-agreement.png",
-    "url": "https://github.com/JonathanGun/perjanjian-jasa-pemasaran-properti"
+    "repo": "https://github.com/JonathanGun/perjanjian-jasa-pemasaran-properti"
+  },
+  {
+    "slug": "warehouse-campaign-site",
+    "name": "Campaign Website for Warehouses",
+    "description": "Marketing landing page for warehouse property near IKN.",
+    "tech": [
+      "Next.js",
+      "Static",
+      "Vercel"
+    ],
+    "image": "/images/campaign-website.png",
+    "url": "https://bizhub52x-else-property.vercel.app/",
+    "repo": "https://github.com/JonathanGun/bizhub52x-else-property"
   },
   {
     "slug": "ecommerce-dashboard",
@@ -33,10 +48,124 @@
       "MongoDB",
       "Express",
       "React",
-      "Node.js"
+      "Node.js",
+      "PHP"
     ],
     "image": "/images/ecommerce-dashboard.png",
-    "url": "https://github.com/JonathanGun/choco-factory-php"
+    "repo": "https://github.com/JonathanGun/choco-factory-php"
+  },
+  {
+    "slug": "minecraft-dashboard",
+    "name": "Minecraft Server Dashboard",
+    "description": "Real-time dashboard to manage private Minecraft servers (with modpacks).",
+    "tech": [
+      "React",
+      "Python",
+      "Google Cloud Run"
+    ],
+    "image": "/images/minecraft-dashboard.png",
+    "repo": "https://github.com/JonathanGun/minecraft-server-controller-ui"
+  },
+  {
+    "slug": "flappy-bird-processing",
+    "name": "Flappy Bird Clone",
+    "description": "Flappy Bird game clone built with Processing framework.",
+    "tech": [
+      "Processing",
+      "Game"
+    ],
+    "image": "/images/flappy-bird.gif",
+    "repo": "https://github.com/JonathanGun/flappy-bird-processing"
+  },
+  {
+    "slug": "cp-code-archive",
+    "name": "Competitive Programming Code Archive",
+    "description": "My solutions for various programming contests.",
+    "tech": [
+      "C++",
+      "Python"
+    ],
+    "image": "/images/codeforces.png",
+    "repo": "https://github.com/JonathanGun/Competitive-Programming-Archive"
+  },
+  {
+    "slug": "bible-verse-of-the-year",
+    "name": "Bible Verse of the Year",
+    "description": "Mobile-first static site to display a curated yearly verse (no backend).",
+    "tech": [
+      "Next.js",
+      "Static",
+      "Vercel"
+    ],
+    "image": "/images/bible-verse.png",
+    "url": "https://ayat-emas.vercel.app/",
+    "repo": "https://github.com/JonathanGun/ayat-emas",
+    "extra": true
+  },
+  {
+    "slug": "ip-address-tracker",
+    "name": "IP Address Tracker (Frontend Mentor)",
+    "description": "Challenge solution for IP geolocation lookup.",
+    "tech": [
+      "React",
+      "Next.js",
+      "Leaflet",
+      "Frontend Mentor"
+    ],
+    "image": "/images/ip-address-tracker.png",
+    "url": "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0",
+    "repo": "https://github.com/JonathanGun/Frontend-Mentor-IP-address-tracker-solution",
+    "extra": true
+  },
+  {
+    "slug": "warehouse-location-map",
+    "name": "Warehouse Interactive Map",
+    "description": "Interactive map for storing & visualizing warehouse locations.",
+    "tech": [
+      "React",
+      "Leaflet",
+      "ArcGIS"
+    ],
+    "image": "/images/arcgis-logo.webp",
+    "repo": "https://github.com/JonathanGun/if3250-30-ditsp3-itbgis",
+    "extra": true
+  },
+  {
+    "slug": "digital-signing",
+    "name": "Digital Signing",
+    "description": "Service exploring digital document signing workflows.",
+    "tech": [
+      "Node.js"
+    ],
+    "image": "/images/digital-signature.png",
+    "repo": "https://github.com/JonathanGun/docsign-be",
+    "extra": true
+  },
+  {
+    "slug": "project-euler-archive",
+    "name": "Project Euler Archive",
+    "description": "Project Euler solutions collection.",
+    "tech": [
+      "C++",
+      "Python",
+      "Math"
+    ],
+    "image": "/images/project-euler.png",
+    "repo": "https://github.com/JonathanGun/Project-Euler",
+    "url": "https://projecteuler.net/",
+    "extra": true
+  },
+  {
+    "slug": "file-encryption-tool",
+    "name": "File Encryption Tool",
+    "description": "Encrypt files using multiple algorithms: RSA, ElGamal, Paillier, ECC.",
+    "tech": [
+      "Python",
+      "PySimpleGUI"
+    ],
+    "image": "/images/file-encryption-tool.png",
+    "repo": "https://github.com/JonathanGun/RSA-ElGamal-Paillier-ECC-PySimpleGUI",
+    "extra": true
   },
   {
     "slug": "class-presence-scheduler",
@@ -48,7 +177,19 @@
       "Line Bot"
     ],
     "image": "/images/class-presence-scheduler.png",
-    "url": "https://github.com/JonathanGun/SIX-Automated-Presence-Scheduler"
+    "repo": "https://github.com/JonathanGun/SIX-Automated-Presence-Scheduler",
+    "extra": true
+  },
+  {
+    "slug": "tanks-multiplayer",
+    "name": "Tanks Multiplayer Game",
+    "description": "Multiplayer shooting PC game built in Unity.",
+    "tech": [
+      "Unity"
+    ],
+    "image": "/images/tanks.png",
+    "repo": "https://github.com/JonathanGun/if3210-2021-unity-k3-5",
+    "extra": true
   },
   {
     "slug": "masyu-puzzle-solver",
@@ -59,7 +200,82 @@
       "OpenCV"
     ],
     "image": "/images/masyu-puzzle-solver.png",
-    "url": "https://github.com/JonathanGun/masyu-solver"
+    "repo": "https://github.com/JonathanGun/masyu-solver",
+    "extra": true
+  },
+  {
+    "slug": "halma-ai",
+    "name": "AI for Halma Board Game",
+    "description": "Minimax & local search AI demonstration for Halma.",
+    "tech": [
+      "Kivy",
+      "Python"
+    ],
+    "image": "/images/halma-ai.png",
+    "repo": "https://github.com/JonathanGun/halma-ai",
+    "extra": true
+  },
+  {
+    "slug": "avatar-card-game",
+    "name": "Avatar Card Game",
+    "description": "Card duel game using avatar characters, similar to Yu-Gi-Oh TCG.",
+    "tech": [
+      "Java",
+      "OOP",
+      "Yu-Gi-Oh"
+    ],
+    "image": "/images/avatar-yugioh.jpg",
+    "repo": "https://github.com/JonathanGun/Avatar-Duel",
+    "extra": true
+  },
+  {
+    "slug": "convex-hull-finder",
+    "name": "Convex Hull Finder",
+    "description": "Visualization of convex hull algorithms.",
+    "tech": [
+      "Processing"
+    ],
+    "image": "/images/convex-hull.png",
+    "repo": "https://github.com/JonathanGun/Convex-Hull-Finder",
+    "extra": true
+  },
+  {
+    "slug": "15-puzzle-solver",
+    "name": "15 Puzzle Solver",
+    "description": "Branch & bound solution finder for 15-puzzle.",
+    "tech": [
+      "Python",
+      "CLI"
+    ],
+    "image": "/images/15-puzzle.png",
+    "repo": "https://github.com/JonathanGun/15PuzzleSolver",
+    "extra": true
+  },
+  {
+    "slug": "covid-info-extractor",
+    "name": "Covid Information Extractor",
+    "description": "Keyword extraction webapp using Boyer-Moore, KMP & regex.",
+    "tech": [
+      "Flask",
+      "String Matcher"
+    ],
+    "image": "/images/covex.png",
+    "url": "https://covid-keyword-extractor.vercel.app/",
+    "repo": "https://github.com/JonathanGun/Covid-keyword-extractor",
+    "extra": true
+  },
+  {
+    "slug": "vr-web-poc",
+    "name": "VR Website POC",
+    "description": "WebGL test rendering Unity scene in browser.",
+    "tech": [
+      "WebGL",
+      "Unity"
+    ],
+    "image": "/images/web-vr-poc.png",
+    "url": "https://testvr-theta.vercel.app/",
+    "repo": "https://github.com/JonathanGun/testvr",
+    "extra": true
   },
   {
     "slug": "payment-gateway",
@@ -70,212 +286,70 @@
       "gRPC",
       "Kubernetes"
     ],
-    "image": "/images/icon.png"
-  },
-  {
-    "slug": "bible-verse-of-the-year",
-    "name": "Bible Verse of the Year",
-    "description": "Mobile-first static site to display a curated yearly verse (no backend).",
-    "tech": ["Next.js", "Static", "Vercel"],
-    "image": "/images/bible-verse.png",
-    "url": "https://ayat-emas.vercel.app/",
-    "repo": "https://github.com/JonathanGun/ayat-emas",
-    "extra": true
-  },
-  {
-    "slug": "warehouse-campaign-site",
-    "name": "Campaign Website for Warehouses",
-    "description": "Marketing landing page for warehouse property near IKN.",
-    "tech": ["Next.js", "Marketing"],
-    "image": "/images/campaign-website.png",
-    "url": "https://bizhub52x-else-property.vercel.app/",
-    "repo": "https://github.com/JonathanGun/bizhub52x-else-property",
-    "extra": true
-  },
-  {
-    "slug": "digital-signing",
-    "name": "Digital Signing",
-    "description": "Service exploring digital document signing workflows.",
-    "tech": ["Go", "Signing"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/docsign-be",
-    "extra": true
-  },
-  {
-    "slug": "warehouse-location-map",
-    "name": "Warehouse Location Interactive DB",
-    "description": "Interactive map for storing & visualizing warehouse locations.",
-    "tech": ["Leaflet", "Map", "Web"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/if3250-30-ditsp3-itbgis",
+    "image": "/images/golang-logo.png",
     "extra": true
   },
   {
     "slug": "tour-travel-admin",
     "name": "Tour & Travel Admin CMS",
-    "description": "Admin interface for tour & travel content management (needs restructuring).",
-    "tech": ["React", "Admin"],
-    "image": "/images/icon.png",
+    "description": "Admin interface for tour & travel content management.",
+    "tech": [
+      "Django",
+      "Python"
+    ],
+    "image": "/images/tour-travel-admin.png",
     "repo": "https://github.com/JonathanGun/tour-travel-admin",
-    "extra": true
-  },
-  {
-    "slug": "file-encryption-tool",
-    "name": "File Encryption Tool",
-    "description": "Desktop UI with RSA, ElGamal, Paillier, ECC algorithms (PySimpleGUI).",
-    "tech": ["Python", "Crypto", "GUI"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/RSA-ElGamal-Paillier-ECC-PySimpleGUI",
-    "extra": true
-  },
-  {
-    "slug": "tanks-multiplayer",
-    "name": "Tanks Multiplayer Game",
-    "description": "Multiplayer shooting PC game built in Unity.",
-    "tech": ["Unity", "Game"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/if3210-2021-unity-k3-5",
-    "extra": true
-  },
-  {
-    "slug": "halma-ai",
-    "name": "AI for Halma Board Game",
-    "description": "Minimax & local search AI demonstration for Halma.",
-    "tech": ["AI", "Search"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/halma-ai",
-    "extra": true
-  },
-  {
-    "slug": "vr-web-poc",
-    "name": "VR Website POC",
-    "description": "WebGL test rendering Unity scene in browser.",
-    "tech": ["WebGL", "Unity"],
-    "image": "/images/icon.png",
-    "url": "https://testvr-theta.vercel.app/",
-    "repo": "https://github.com/JonathanGun/testvr",
-    "extra": true
-  },
-  {
-    "slug": "yugioh-clone",
-    "name": "Yu-Gi-Oh Clone",
-    "description": "Card duel game for OOP learning.",
-    "tech": ["Java", "Game"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/Avatar-Duel",
-    "extra": true
-  },
-  {
-    "slug": "convex-hull-finder",
-    "name": "Convex Hull Finder",
-    "description": "Visualization of convex hull algorithms.",
-    "tech": ["Algorithm", "Visualization"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/Convex-Hull-Finder",
-    "extra": true
-  },
-  {
-    "slug": "15-puzzle-solver",
-    "name": "15 Puzzle Solver",
-    "description": "Branch & bound solution finder for 15-puzzle.",
-    "tech": ["Python", "Search"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/15PuzzleSolver",
-    "extra": true
-  },
-  {
-    "slug": "covid-info-extractor",
-    "name": "Covid Information Extractor",
-    "description": "Keyword extraction webapp using Boyer-Moore, KMP & regex.",
-    "tech": ["Flask", "Algorithms", "Text"],
-    "image": "/images/icon.png",
-    "url": "https://covid-keyword-extractor.vercel.app/",
-    "repo": "https://github.com/JonathanGun/Covid-keyword-extractor",
-    "extra": true
-  },
-  {
-    "slug": "cp-code-archive",
-    "name": "Competitive Programming Archive",
-    "description": "Solutions for various programming contests.",
-    "tech": ["C++", "Archive"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/Competitive-Programming-Archive",
-    "extra": true
-  },
-  {
-    "slug": "project-euler-archive",
-    "name": "Project Euler Archive",
-    "description": "Project Euler solutions collection.",
-    "tech": ["C++", "Math"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/Project-Euler",
-    "extra": true
-  },
-  {
-    "slug": "ip-address-tracker",
-    "name": "IP Address Tracker (Frontend Mentor)",
-    "description": "Challenge solution with IP geolocation lookup.",
-    "tech": ["React", "Challenge"],
-    "image": "/images/icon.png",
-    "url": "https://frontend-mentor-ip-address-tracker-solution-three.vercel.app/",
-    "repo": "https://github.com/JonathanGun/Frontend-Mentor-IP-address-tracker-solution",
     "extra": true
   },
   {
     "slug": "qr-code-component",
     "name": "QR Code Component (Frontend Mentor)",
-    "description": "Simple QR code component challenge solution.",
-    "tech": ["React", "Challenge"],
-    "image": "/images/icon.png",
-    "url": "https://frontend-mentor-qr-code-component-solution-zeta.vercel.app/",
+    "description": "Challenge solution for displaying a simple QR code component.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Frontend Mentor"
+    ],
+    "image": "/images/qr-code.png",
+    "url": "https://www.frontendmentor.io/solutions/qr-code-component-using-html-css-u8x2ym0X98",
     "repo": "https://github.com/JonathanGun/Frontend-Mentor-QR-code-component-solution",
     "extra": true
   },
   {
     "slug": "newsletter-signup-form",
-    "name": "Newsletter Signup Form (FM)",
-    "description": "Signup form with success message (challenge solution).",
-    "tech": ["React", "Challenge"],
-    "image": "/images/icon.png",
-    "url": "https://frontend-mentor-newsletter-sign-up-form-git-8ea6bf-jonathangun.vercel.app/",
+    "name": "Newsletter Signup Form (Frontend Mentor)",
+    "description": "Challenge solution for creating newsletter signup form.",
+    "tech": [
+      "Svelte Kit",
+      "Frontend Mentor"
+    ],
+    "image": "/images/newsletter-form.png",
+    "url": "https://www.frontendmentor.io/solutions/newsletter-sign-up-using-sveltekit-VfxXqWAsMZ",
     "repo": "https://github.com/JonathanGun/Frontend-Mentor-Newsletter-sign-up-form-with-success-message-solution",
     "extra": true
   },
   {
     "slug": "mortgage-repayment-calculator",
-    "name": "Mortgage Repayment Calculator (FM)",
-    "description": "Frontend Mentor mortgage calculator solution.",
-    "tech": ["React", "Challenge"],
-    "image": "/images/icon.png",
-    "url": "https://frontend-mentor-mortgage-repayment-calculator-2.vercel.app/",
+    "name": "Mortgage Repayment Calculator (Frontend Mentor)",
+    "description": "Challenge solution for mortgage repayment calculator.",
+    "tech": [
+      "Gatsby",
+      "React"
+    ],
+    "image": "/images/mortgage-calculator.png",
+    "url": "https://www.frontendmentor.io/solutions/mortgage-calculator-using-gatsby-react-material-ui-and-tailwind-edexwTJQHH",
     "repo": "https://github.com/JonathanGun/frontend-mentor-mortgage-repayment-calculator-2",
-    "extra": true
-  },
-  {
-    "slug": "easybank-landing-page",
-    "name": "Easybank Landing Page (FM)",
-    "description": "Frontend Mentor Easybank landing page solution.",
-    "tech": ["React", "Challenge"],
-    "image": "/images/icon.png",
-    "url": "https://frontend-mentor-easybank-landing-page-three.vercel.app/",
-    "repo": "https://github.com/JonathanGun/frontend-mentor-easybank-landing-page",
-    "extra": true
-  },
-  {
-    "slug": "flappy-bird-processing",
-    "name": "Flappy Bird Clone",
-    "description": "Clone built with Processing framework.",
-    "tech": ["Processing", "Game"],
-    "image": "/images/icon.png",
-    "repo": "https://github.com/JonathanGun/flappy-bird-processing",
     "extra": true
   },
   {
     "slug": "piano-tiles-processing",
     "name": "Piano Tiles Clone",
-    "description": "Processing-based Piano Tiles style game.",
-    "tech": ["Processing", "Game"],
-    "image": "/images/icon.png",
+    "description": "Piano Tiles game clone built with Processing framework.",
+    "tech": [
+      "Processing",
+      "Game"
+    ],
+    "image": "/images/piano-tiles.jpg",
     "repo": "https://github.com/JonathanGun/piano-tiles-processing",
     "extra": true
   },
@@ -283,8 +357,11 @@
     "slug": "ball-bounce-sim",
     "name": "Ball Bouncing Simulation",
     "description": "Physics / gravity simulation in Processing.",
-    "tech": ["Processing", "Simulation"],
-    "image": "/images/icon.png",
+    "tech": [
+      "Processing",
+      "Simulation"
+    ],
+    "image": "/images/ball-bouncing.jpg",
     "repo": "https://github.com/JonathanGun/ball-bounce-processing",
     "extra": true
   },
@@ -292,26 +369,36 @@
     "slug": "steering-behavior",
     "name": "Steering Behavior Demo",
     "description": "Game AI steering behavior showcase (seek & steer).",
-    "tech": ["Processing", "AI"],
-    "image": "/images/icon.png",
+    "tech": [
+      "Processing",
+      "AI"
+    ],
+    "image": "/images/steering-behavior.jpg",
     "repo": "https://github.com/JonathanGun/seek-and-steer-processing",
     "extra": true
   },
   {
-    "slug": "2048-kivy",
-    "name": "2048 Clone (Kivy)",
+    "slug": "2048-clone",
+    "name": "2048 Clone",
     "description": "2048 puzzle clone using Kivy framework.",
-    "tech": ["Python", "Kivy"],
-    "image": "/images/icon.png",
+    "tech": [
+      "Python",
+      "Kivy"
+    ],
+    "image": "/images/2048.jpg",
     "repo": "https://github.com/JonathanGun/2048-kivy",
     "extra": true
   },
   {
     "slug": "minesweeper-kivy",
     "name": "Minesweeper Clone (Kivy)",
-    "description": "Minesweeper built with Kivy (learning FloodFill).",
-    "tech": ["Python", "Kivy"],
-    "image": "/images/icon.png",
+    "description": "Minesweeper built with Kivy, showcasing FloodFill algorithm.",
+    "tech": [
+      "Python",
+      "Kivy",
+      "FloodFill"
+    ],
+    "image": "/images/minesweeper.png",
     "repo": "https://github.com/JonathanGun/minesweeper-kivy",
     "extra": true
   }
