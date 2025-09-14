@@ -1,5 +1,7 @@
 import React from 'react';
 import experience from '../../content/experience.json';
+import { useProgressiveReveal } from '../hooks/useProgressiveReveal';
+import ProgressiveRevealControls from '../components/ProgressiveRevealControls';
 
 type ExperienceItem = {
   company: string;
@@ -12,22 +14,16 @@ type ExperienceItem = {
 };
 
 const Experience: React.FC = () => {
-  const items = (experience as ExperienceItem[]).map(e => ({ ...e, priority: typeof e.priority === 'number' ? e.priority : 0 }));
-  const maxPriority = items.reduce((m, e) => Math.max(m, e.priority ?? 0), 0);
-  const [visiblePriority, setVisiblePriority] = React.useState(0);
-  const visible = items.filter(e => (e.priority ?? 0) <= visiblePriority);
-  const hiddenCount = items.length - visible.length;
-  const fullyExpanded = visiblePriority >= maxPriority;
-
-  const toggle = () => {
-    if (fullyExpanded) setVisiblePriority(0); else setVisiblePriority(p => Math.min(p + 1, maxPriority));
-  };
+  const { visibleItems, visiblePriority, maxPriority, hiddenCount, fullyExpanded, reset, showMore } = useProgressiveReveal<ExperienceItem>({
+    items: (experience as ExperienceItem[]),
+    normalizePriority: e => (typeof e.priority === 'number' ? e.priority : 0)
+  });
 
   return (
     <section id="experience" aria-label="Work Experience" className="scroll-mt-24">
       <h2 className="mb-8 text-2xl font-semibold tracking-tight">Experience</h2>
       <ol className="timeline" id="experience-timeline">
-        {visible.map(item => (
+        {visibleItems.map(item => (
           <li
             key={`${item.company}-${item.start}`}
             className={`timeline-item ${(item.priority ?? 0) === 0 ? '' : 'opacity-90'}`}
@@ -47,31 +43,15 @@ const Experience: React.FC = () => {
         ))}
       </ol>
       {maxPriority > 0 && (
-        <div className="mt-4 flex items-center gap-3">
-          {visiblePriority > 0 && (
-            <button
-              type="button"
-              onClick={() => setVisiblePriority(0)}
-              className="inline-flex items-center gap-2 rounded-md border border-border bg-bg-alt/60 px-4 py-2 text-sm font-medium text-text/90 shadow-sm transition hover:bg-bg-alt focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
-              aria-controls="experience-timeline"
-            >
-              <span className="text-sm leading-none">▴</span>
-              Show less
-            </button>
-          )}
-          {!fullyExpanded && (
-            <button
-              type="button"
-              onClick={() => setVisiblePriority(p => Math.min(p + 1, maxPriority))}
-              className="inline-flex items-center gap-2 rounded-md border border-border bg-bg-alt/60 px-4 py-2 text-sm font-medium text-text/90 shadow-sm transition hover:bg-bg-alt focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
-              aria-controls="experience-timeline"
-            >
-              Show more
-              <span className="text-sm leading-none">▾</span>
-              <span className="text-[0.65rem] font-semibold text-text/60">(+{hiddenCount})</span>
-            </button>
-          )}
-        </div>
+        <ProgressiveRevealControls
+          id="experience-timeline"
+          canShowLess={visiblePriority > 0}
+          canShowMore={!fullyExpanded}
+          hiddenCount={hiddenCount}
+          onShowLess={reset}
+          onShowMore={showMore}
+          baseLabel="experience items"
+        />
       )}
     </section>
   );
