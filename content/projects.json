@@ -11,7 +11,8 @@
     ],
     "image": "/images/thagpt.png",
     "url": "https://thagpt-182249571755.asia-southeast2.run.app",
-    "repo": "https://github.com/JonathanGun/LibreChat"
+    "repo": "https://github.com/JonathanGun/LibreChat",
+    "priority": 0
   },
   {
     "slug": "property-marketing-agreement",
@@ -24,7 +25,8 @@
       "Google Cloud Run"
     ],
     "image": "/images/property-marketing-agreement.png",
-    "repo": "https://github.com/JonathanGun/perjanjian-jasa-pemasaran-properti"
+    "repo": "https://github.com/JonathanGun/perjanjian-jasa-pemasaran-properti",
+    "priority": 0
   },
   {
     "slug": "warehouse-campaign-site",
@@ -37,7 +39,8 @@
     ],
     "image": "/images/campaign-website.png",
     "url": "https://bizhub52x-else-property.vercel.app/",
-    "repo": "https://github.com/JonathanGun/bizhub52x-else-property"
+    "repo": "https://github.com/JonathanGun/bizhub52x-else-property",
+    "priority": 0
   },
   {
     "slug": "ecommerce-dashboard",
@@ -52,7 +55,8 @@
       "PHP"
     ],
     "image": "/images/ecommerce-dashboard.png",
-    "repo": "https://github.com/JonathanGun/choco-factory-php"
+    "repo": "https://github.com/JonathanGun/choco-factory-php",
+    "priority": 0
   },
   {
     "slug": "minecraft-dashboard",
@@ -64,7 +68,8 @@
       "Google Cloud Run"
     ],
     "image": "/images/minecraft-dashboard.png",
-    "repo": "https://github.com/JonathanGun/minecraft-server-controller-ui"
+    "repo": "https://github.com/JonathanGun/minecraft-server-controller-ui",
+    "priority": 0
   },
   {
     "slug": "flappy-bird-processing",
@@ -75,7 +80,8 @@
       "Game"
     ],
     "image": "/images/flappy-bird.gif",
-    "repo": "https://github.com/JonathanGun/flappy-bird-processing"
+    "repo": "https://github.com/JonathanGun/flappy-bird-processing",
+    "priority": 0
   },
   {
     "slug": "cp-code-archive",
@@ -86,7 +92,8 @@
       "Python"
     ],
     "image": "/images/codeforces.png",
-    "repo": "https://github.com/JonathanGun/Competitive-Programming-Archive"
+    "repo": "https://github.com/JonathanGun/Competitive-Programming-Archive",
+    "priority": 0
   },
   {
     "slug": "bible-verse-of-the-year",
@@ -100,7 +107,7 @@
     "image": "/images/bible-verse.png",
     "url": "https://ayat-emas.vercel.app/",
     "repo": "https://github.com/JonathanGun/ayat-emas",
-    "extra": true
+    "priority": 1
   },
   {
     "slug": "ip-address-tracker",
@@ -115,7 +122,7 @@
     "image": "/images/ip-address-tracker.png",
     "url": "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0",
     "repo": "https://github.com/JonathanGun/Frontend-Mentor-IP-address-tracker-solution",
-    "extra": true
+    "priority": 1
   },
   {
     "slug": "warehouse-location-map",
@@ -128,7 +135,7 @@
     ],
     "image": "/images/arcgis-logo.webp",
     "repo": "https://github.com/JonathanGun/if3250-30-ditsp3-itbgis",
-    "extra": true
+    "priority": 1
   },
   {
     "slug": "digital-signing",
@@ -139,7 +146,7 @@
     ],
     "image": "/images/digital-signature.png",
     "repo": "https://github.com/JonathanGun/docsign-be",
-    "extra": true
+    "priority": 1
   },
   {
     "slug": "project-euler-archive",
@@ -153,7 +160,7 @@
     "image": "/images/project-euler.png",
     "repo": "https://github.com/JonathanGun/Project-Euler",
     "url": "https://projecteuler.net/",
-    "extra": true
+    "priority": 1
   },
   {
     "slug": "file-encryption-tool",
@@ -165,7 +172,7 @@
     ],
     "image": "/images/file-encryption-tool.png",
     "repo": "https://github.com/JonathanGun/RSA-ElGamal-Paillier-ECC-PySimpleGUI",
-    "extra": true
+    "priority": 2
   },
   {
     "slug": "class-presence-scheduler",
@@ -178,7 +185,7 @@
     ],
     "image": "/images/class-presence-scheduler.png",
     "repo": "https://github.com/JonathanGun/SIX-Automated-Presence-Scheduler",
-    "extra": true
+    "priority": 2
   },
   {
     "slug": "tanks-multiplayer",
@@ -189,7 +196,7 @@
     ],
     "image": "/images/tanks.png",
     "repo": "https://github.com/JonathanGun/if3210-2021-unity-k3-5",
-    "extra": true
+    "priority": 2
   },
   {
     "slug": "masyu-puzzle-solver",
@@ -201,7 +208,7 @@
     ],
     "image": "/images/masyu-puzzle-solver.png",
     "repo": "https://github.com/JonathanGun/masyu-solver",
-    "extra": true
+    "priority": 2
   },
   {
     "slug": "halma-ai",
@@ -213,7 +220,7 @@
     ],
     "image": "/images/halma-ai.png",
     "repo": "https://github.com/JonathanGun/halma-ai",
-    "extra": true
+    "priority": 2
   },
   {
     "slug": "avatar-card-game",
@@ -226,7 +233,7 @@
     ],
     "image": "/images/avatar-yugioh.jpg",
     "repo": "https://github.com/JonathanGun/Avatar-Duel",
-    "extra": true
+    "priority": 2
   },
   {
     "slug": "convex-hull-finder",
@@ -237,7 +244,7 @@
     ],
     "image": "/images/convex-hull.png",
     "repo": "https://github.com/JonathanGun/Convex-Hull-Finder",
-    "extra": true
+    "priority": 2
   },
   {
     "slug": "15-puzzle-solver",
@@ -249,7 +256,7 @@
     ],
     "image": "/images/15-puzzle.png",
     "repo": "https://github.com/JonathanGun/15PuzzleSolver",
-    "extra": true
+    "priority": 2
   },
   {
     "slug": "covid-info-extractor",
@@ -262,7 +269,7 @@
     "image": "/images/covex.png",
     "url": "https://covid-keyword-extractor.vercel.app/",
     "repo": "https://github.com/JonathanGun/Covid-keyword-extractor",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "vr-web-poc",
@@ -275,7 +282,7 @@
     "image": "/images/web-vr-poc.png",
     "url": "https://testvr-theta.vercel.app/",
     "repo": "https://github.com/JonathanGun/testvr",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "payment-gateway",
@@ -287,7 +294,7 @@
       "Kubernetes"
     ],
     "image": "/images/golang-logo.png",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "tour-travel-admin",
@@ -299,7 +306,7 @@
     ],
     "image": "/images/tour-travel-admin.png",
     "repo": "https://github.com/JonathanGun/tour-travel-admin",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "qr-code-component",
@@ -313,7 +320,7 @@
     "image": "/images/qr-code.png",
     "url": "https://www.frontendmentor.io/solutions/qr-code-component-using-html-css-u8x2ym0X98",
     "repo": "https://github.com/JonathanGun/Frontend-Mentor-QR-code-component-solution",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "newsletter-signup-form",
@@ -326,7 +333,7 @@
     "image": "/images/newsletter-form.png",
     "url": "https://www.frontendmentor.io/solutions/newsletter-sign-up-using-sveltekit-VfxXqWAsMZ",
     "repo": "https://github.com/JonathanGun/Frontend-Mentor-Newsletter-sign-up-form-with-success-message-solution",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "mortgage-repayment-calculator",
@@ -339,7 +346,7 @@
     "image": "/images/mortgage-calculator.png",
     "url": "https://www.frontendmentor.io/solutions/mortgage-calculator-using-gatsby-react-material-ui-and-tailwind-edexwTJQHH",
     "repo": "https://github.com/JonathanGun/frontend-mentor-mortgage-repayment-calculator-2",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "piano-tiles-processing",
@@ -351,7 +358,7 @@
     ],
     "image": "/images/piano-tiles.jpg",
     "repo": "https://github.com/JonathanGun/piano-tiles-processing",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "ball-bounce-sim",
@@ -363,7 +370,7 @@
     ],
     "image": "/images/ball-bouncing.jpg",
     "repo": "https://github.com/JonathanGun/ball-bounce-processing",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "steering-behavior",
@@ -375,7 +382,7 @@
     ],
     "image": "/images/steering-behavior.jpg",
     "repo": "https://github.com/JonathanGun/seek-and-steer-processing",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "2048-clone",
@@ -387,11 +394,11 @@
     ],
     "image": "/images/2048.jpg",
     "repo": "https://github.com/JonathanGun/2048-kivy",
-    "extra": true
+    "priority": 3
   },
   {
     "slug": "minesweeper-kivy",
-    "name": "Minesweeper Clone (Kivy)",
+    "name": "Minesweeper Clone",
     "description": "Minesweeper built with Kivy, showcasing FloodFill algorithm.",
     "tech": [
       "Python",
@@ -400,6 +407,6 @@
     ],
     "image": "/images/minesweeper.png",
     "repo": "https://github.com/JonathanGun/minesweeper-kivy",
-    "extra": true
+    "priority": 3
   }
 ]

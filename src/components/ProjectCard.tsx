@@ -11,7 +11,7 @@ export type ProjectData = {
   image?: string; // optional; fallback placeholder will be used if absent
   url?: string;
   repo?: string;
-  extra?: boolean;
+  priority?: number; // 0 = always visible; higher numbers revealed incrementally
 };
 
 type Variant = 'main' | 'extra';
